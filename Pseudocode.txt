@@ -1,0 +1,14 @@
+BEGIN
+	Order taken
+IF	Order available THEN
+	Order added
+ELSE IF	Order not available THEN
+	Order taken
+	Total calculation of the order
+	Schedule part of the order
+	Get the payment method
+IF	Paid THEN
+	Reciept issued
+ELSE IF	Not paid THEN
+	Get payment method
+END
